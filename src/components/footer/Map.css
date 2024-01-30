@@ -1,0 +1,14 @@
+.div-map {
+    width: 100%;
+}
+
+.map {
+    width: inherit;
+    height: 350px ;
+    border: 0;
+    border-radius: 12px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}

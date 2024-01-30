@@ -1,0 +1,191 @@
+.cards0 {
+    /* cards */
+
+/* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    /* width: 1360px; */
+    width: 100%;
+    height: 150px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.phone {
+    /* phone */
+
+/* Auto layout */
+    /* display: flex; */
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 16px;
+
+    width: 780px;
+    /* height: 150px; */
+
+    /* light-grey */
+    background: #F1F3F4;
+    border-radius: 12px;
+
+    /* Inside auto layout */
+    /* flex: none; */
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.phone-head {
+    /* Phone */
+
+    width: 67px;
+    height: 26px;
+    margin: 0px;
+    margin-bottom: 10px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    /* identical to box height, or 26px */
+
+    /* txt/grey */
+    color: #8B8B8B;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.phone-value {
+    /* +7 (499) 350-66-04 */
+
+    width: 716px;
+    height: 44px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110%;
+    /* identical to box height, or 44px */
+
+    /* txt/black */
+    color: #282828;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.socials {
+    /* socials */
+
+/* Auto layout */
+/* display: flex; */
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+gap: 16px;
+
+width: 548px;
+/* height: 150px; */
+
+/* light-grey */
+background: #F1F3F4;
+border-radius: 12px;
+
+/* Inside auto layout */
+/* flex: none; */
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.socials-head {
+    /* Socials */
+
+width: 70px;
+height: 26px;
+margin: 0px;
+margin-bottom: 10px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 130%;
+/* identical to box height, or 26px */
+
+/* txt/grey */
+color: #8B8B8B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame3318 {
+    /* Frame 3318 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 102px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+
+.instagram {
+    /* ic-instagram */
+
+width: 43px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+}
+
+.whatsapp {
+    /* ic-whatsapp */
+
+width: 43px;
+height: 43px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}

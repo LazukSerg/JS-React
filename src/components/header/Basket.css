@@ -1,0 +1,52 @@
+/* icon */
+
+.vector {
+    position: absolute;
+    width: 44px;
+    height: 48px;
+    right: 0px;
+    top: calc(50% - 48px/2);
+
+/* black */
+    background: #282828;
+}
+
+
+.item {
+/* item */
+/* Ellipse 12 */
+
+position: absolute;
+width: 26px;
+height: 26px;
+left: 0px;
+top: 7px;
+border-radius: 50%;
+
+/* green */
+background: #339933;
+
+}
+
+.number {
+    /* 12 */
+
+    position: absolute;
+    width: 12px;
+    height: 11px;
+    left: calc(50% - 12px/2);
+    top: calc(50% - 11px/2 - 0.5px);
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 90%;
+    /* identical to box height, or 11px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* white */
+    color: #FFFFFF;
+}

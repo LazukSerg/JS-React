@@ -1,0 +1,602 @@
+.product-info-flex {
+    display: flex;
+flex-direction: row;
+align-items: center;
+/* padding: 0px; */
+padding: 30px 50px 30px 50px;
+margin: 30px 50px 30px 50px;
+gap: 32px;
+
+position: relative;
+/* width: 100%; */
+height: 500px;
+/* left: 40px; */
+/* top: 316px; */
+}
+
+.product-info-image {
+    /* width: 780px; */
+height: 400px;
+/* width: 100%; */
+
+/* background: url(6626983594.png); */
+border-radius: 12px;
+}
+
+.product-info {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 70%;
+height: 400px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.a {
+ 
+
+
+
+/* gallery */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 780px;
+height: 572px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* main photo */
+
+width: 780px;
+height: 572px;
+
+/* background: url(6626983594.png); */
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* txt */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 548px;
+height: 574px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Secateurs */
+
+width: 548px;
+height: 44px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 110%;
+/* identical to box height, or 44px */
+letter-spacing: 0.03em;
+
+/* txt/black */
+color: #282828;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* price */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 359px;
+height: 70px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* price */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: baseline;
+padding: 0px;
+gap: 32px;
+
+width: 280px;
+height: 70px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* $199 */
+
+width: 147px;
+height: 70px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 110%;
+/* or 70px */
+
+/* txt/black */
+color: #282828;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* $240 */
+
+width: 101px;
+height: 52px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 130%;
+/* identical to box height, or 52px */
+text-decoration-line: line-through;
+
+/* txt/grey */
+color: #8B8B8B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* sale */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 4px 8px;
+gap: 10px;
+
+width: 63px;
+height: 34px;
+
+/* green */
+background: #339933;
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* -17% */
+
+width: 47px;
+height: 26px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 130%;
+/* identical to box height, or 26px */
+letter-spacing: 0.03em;
+
+/* txt/white */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3320 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 548px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 3319 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 200px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* minus */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+margin: 0 auto;
+width: 58px;
+height: 58px;
+
+/* grey divider */
+border: 1px solid #DDDDDD;
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* minus */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 50%;
+bottom: 50%;
+
+/* txt/grey */
+border: 2px solid #8B8B8B;
+
+
+/* minus */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+margin: 0 auto;
+width: 96px;
+height: 58px;
+
+/* grey divider */
+border-width: 1px 0px;
+border-style: solid;
+border-color: #DDDDDD;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 1 */
+
+width: 8px;
+height: 26px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 130%;
+/* identical to box height, or 26px */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* txt/black */
+color: #282828;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* plus */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+margin: 0 auto;
+width: 58px;
+height: 58px;
+
+/* grey divider */
+border: 1px solid #DDDDDD;
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* plus */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 50%;
+bottom: 50%;
+
+/* txt/grey */
+border: 2px solid #8B8B8B;
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: 50%;
+top: 20.83%;
+bottom: 20.83%;
+
+/* txt/grey */
+border: 2px solid #8B8B8B;
+
+
+/* btn card */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+gap: 10px;
+
+width: 316px;
+height: 58px;
+
+/* green */
+background: #339933;
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Add to cart */
+
+width: 252px;
+height: 26px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 130%;
+/* identical to box height, or 26px */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* txt/white */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* txt */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 548px;
+height: 306px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Description */
+
+width: 548px;
+height: 26px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 130%;
+/* identical to box height, or 26px */
+
+/* txt/black */
+color: #282828;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* This high quality everyday secateur features a fully hardened and tempered, high-carbon steel blade for lasting sharpness. For comfort, the robust but lightweight alloy handles are covered in a soft grip, in a bright terracotta colour for maximum visibility in the garden. It won’t be easy to leave this pruner behind at the end of the day! Rubber cushion stops prevent jarring over repeated use, reducing hand strain for the user. This secateur cuts up to 2.5 cm diameter. Carrying RHS endorsement, possibly the highest accolade in gardening, for peace of mind this pruner comes with a ten-year guarantee against manufacturing defects. Supplied with replacement blade and spare spring. You may also be interested in our pack of two replacement springs. */
+
+width: 548px;
+height: 227px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+/* or 21px */
+
+/* txt/black */
+color: #282828;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Read more */
+
+width: 548px;
+height: 21px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 130%;
+/* identical to box height, or 21px */
+text-decoration-line: underline;
+
+/* txt/black */
+color: #282828;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+}

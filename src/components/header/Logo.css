@@ -1,0 +1,159 @@
+
+
+
+.logo1 {
+    /* logo */
+
+position: absolute;
+width: 70px;
+height: 70px;
+left: 40px;
+top: 30px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* green */
+background: #339933;
+
+
+/* ground */
+
+position: absolute;
+left: 25%;
+right: 23.81%;
+top: 79.76%;
+bottom: -3.57%;
+
+
+
+/* Union */
+
+position: absolute;
+width: 32.46px;
+height: 24.88px;
+left: 2.02px;
+top: 0.06px;
+
+background: #FFFFFF;
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 15.15px;
+height: 15.15px;
+left: 15px;
+top: 0.06px;
+
+background: #D9D9D9;
+
+
+/* Ellipse 9 */
+
+position: absolute;
+width: 19.47px;
+height: 19.47px;
+left: 8.51px;
+top: 5.47px;
+
+background: #D9D9D9;
+
+
+/* Ellipse 3 */
+
+position: absolute;
+width: 11.9px;
+height: 11.9px;
+left: 22.58px;
+top: 5.47px;
+
+background: #D9D9D9;
+
+
+/* Ellipse 4 */
+
+position: absolute;
+width: 6.49px;
+height: 6.49px;
+left: 25.82px;
+top: 4.38px;
+
+background: #D9D9D9;
+
+
+/* Ellipse 5 */
+
+position: absolute;
+width: 6.49px;
+height: 6.49px;
+left: 13.92px;
+top: 0.06px;
+
+background: #D9D9D9;
+
+
+/* Ellipse 6 */
+
+position: absolute;
+width: 7.57px;
+height: 7.57px;
+left: 6.35px;
+top: 3.3px;
+
+background: #D9D9D9;
+
+
+/* Ellipse 7 */
+
+position: absolute;
+width: 10.82px;
+height: 10.82px;
+left: 2.02px;
+top: 5.47px;
+
+background: #D9D9D9;
+
+
+/* Ellipse 8 */
+
+position: absolute;
+width: 9.74px;
+height: 9.74px;
+left: 9.59px;
+top: 2.22px;
+
+background: #D9D9D9;
+
+
+/* Ellipse 11 */
+
+position: absolute;
+width: 70px;
+height: 70px;
+left: -17.5px;
+top: -55.83px;
+
+/* white */
+background: #FFFFFF;
+
+
+/* plant */
+
+position: absolute;
+width: 36px;
+left: calc(50% - 36px/2 + 0.5px);
+top: 25.95%;
+bottom: 22.62%;
+
+/* white */
+background: #FFFFFF;
+
+}
