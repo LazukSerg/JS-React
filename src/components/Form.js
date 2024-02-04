@@ -13,12 +13,18 @@ function Form(props) {
         formState: { errors },
         } = useForm()
 
-    const onSubmit = (data) => {
-        console.log(data)
+    const onSubmit = async(data) => {
         setDiscountText("Request Submitted")
         if(discountColor == `button-color-${props.color}`) {
             setDiscountColor(`${discountColor}-active`)
         }
+        const requestOptions = {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ data })
+        };
+        const response = await fetch('http://localhost:3333/sale/send', requestOptions);
+        const rs = await response.json();
     }
 
 

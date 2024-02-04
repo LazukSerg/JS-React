@@ -1,0 +1,103 @@
+.not-found-flex {
+    display: flex;
+flex-direction: column;
+/* justify-content: flex-end; */
+align-items: center;
+padding: 40px 40px 80px;
+gap: 20px;
+}
+
+.not-found-head {
+    /* Page Not Found */
+/* 
+width: 664px;
+height: 70px; */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 110%;
+/* or 70px */
+/* display: flex; */
+/* align-items: center; */
+text-align: center;
+margin: 0px;
+
+/* txt/black */
+color: #282828;
+
+
+/* Inside auto layout */
+/* flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0; */
+
+}
+
+.not-found-text {
+    /* We’re sorry, the page you requested could not be found. Please go back to the homepage. */
+
+/* width: 664px;
+height: 52px; */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 130%;
+/* or 26px */
+/* display: flex; */
+/* align-items: center; */
+text-align: center;
+
+/* txt/grey */
+color: #8B8B8B;
+
+
+/* Inside auto layout */
+/* flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0; */
+
+}
+
+.not-found-back-button {
+    height: 45px;
+    width: 170px;
+    padding-top: 5px;
+    cursor: pointer;
+    
+    background: #339933;
+    border-radius: 10px;
+}
+    
+    /* .add-button:hover {
+        background: #282828;
+    } */
+    
+.not-found-back-button-text {
+    display: block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+

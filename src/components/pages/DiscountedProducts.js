@@ -4,7 +4,7 @@ import Header from './../header/Header';
 import Footer from './../footer/Footer';
 import Product from '../Product';
 import Name from '../Name';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 
 function DiscountedProducts() {
@@ -18,7 +18,6 @@ function DiscountedProducts() {
         item.image = "http://localhost:3333"+item.image
       })
       const filtered = data.filter(function (item) {
-        console.log(item)
         return item.discont_price
       })
       setData(filtered)

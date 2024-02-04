@@ -1,167 +1,107 @@
 .cards1 {
-/* cards */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 32px;
-
-/* width: 1360px; */
-width: 100%;
-height: 194px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 100%;
+    height: 194px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
 .address {
-/* address */
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 16px;
 
-/* Auto layout */
-/* display: flex; */
-flex-direction: column;
-align-items: flex-start;
-padding: 32px;
-gap: 16px;
-
-width: 780px;
-/* height: 194px; */
-
-/* light-grey */
-background: #F1F3F4;
-border-radius: 12px;
-
-/* Inside auto layout */
-/* flex: none; */
-order: 0;
-align-self: stretch;
-flex-grow: 1;
+    width: 780px;
+    background: #F1F3F4;
+    border-radius: 12px;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
 }
 
 .address-head {
-    /* Address */
+    width: 83px;
+    height: 26px;
+    margin: 0px;
+    margin-bottom: 10px;
 
-width: 83px;
-height: 26px;
-margin: 0px;
-margin-bottom: 10px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 130%;
-/* identical to box height, or 26px */
-
-/* txt/grey */
-color: #8B8B8B;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #8B8B8B;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .address-value {
-    /* Dubininskaya Ulitsa, 96, Moscow, Russia, 115093 */
+    width: 716px;
+    height: 88px;
 
-width: 716px;
-height: 88px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 40px;
-line-height: 110%;
-/* or 44px */
-
-/* txt/black */
-color: #282828;
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110%;
+    color: #282828;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
 .work-hours {
-    /* working hours */
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 16px;
 
-/* Auto layout */
-/* display: flex; */
-flex-direction: column;
-align-items: flex-start;
-padding: 32px;
-gap: 16px;
-
-width: 548px;
-/* height: 194px; */
-
-/* light-grey */
-background: #F1F3F4;
-border-radius: 12px;
-
-/* Inside auto layout */
-/* flex: none; */
-order: 1;
-align-self: stretch;
-flex-grow: 0;
+    width: 548px;
+    background: #F1F3F4;
+    border-radius: 12px;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
 .work-head {
-    /* Working Hours */
+    width: 154px;
+    height: 26px;
+    margin: 0px;
+    margin-bottom: 10px;
 
-width: 154px;
-height: 26px;
-margin: 0px;
-margin-bottom: 10px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 130%;
-/* identical to box height, or 26px */
-
-/* txt/grey */
-color: #8B8B8B;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #8B8B8B;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .work-value {
-    /* 24 hours a day */
+    width: 484px;
+    height: 44px;
 
-width: 484px;
-height: 44px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 40px;
-line-height: 110%;
-/* identical to box height, or 44px */
-
-/* txt/black */
-color: #282828;
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110%;
+    color: #282828;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
 }

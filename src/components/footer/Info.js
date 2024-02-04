@@ -8,7 +8,6 @@ function Info() {
             <Cards0 />
             <Cards1 />
         </div>
-        
     )
 }
 

@@ -7,22 +7,27 @@ import ShoppingCart from "./components/pages/ShoppingCart";
 import NotFound from "./components/pages/NotFound";
 import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Provider } from 'react-redux';
 import ProductInfo from "./components/pages/ProductInfo";
+import store from './store.js';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/categories" element={<Categories />} />
-        <Route path="/all-products" element={<AllProducts />} />
-        <Route path="/category/:id" element={<ProductsCategory />} />
-        <Route path="/discount" element={<DiscountedProducts />} />
-        <Route path="/product/:id" element={<ProductInfo />} />
-        <Route path="/cart" element={<ShoppingCart />} />
-        <Route path="/*" element={<NotFound />} />
-      </Routes>
-    </BrowserRouter>
+    <Provider store={store}>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/categories" element={<Categories />} />
+          <Route path="/all-products" element={<AllProducts />} />
+          <Route path="/category/:id" element={<ProductsCategory />} />
+          <Route path="/discount" element={<DiscountedProducts />} />
+          <Route path="/product/:id" element={<ProductInfo />} />
+          <Route path="/cart" element={<ShoppingCart />} />
+          <Route path="/*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
+    </Provider>
+    
   );
 }
 

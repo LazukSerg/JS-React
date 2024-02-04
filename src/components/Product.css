@@ -72,7 +72,15 @@
     flex-grow: 0;
 }
 
-.sale::before, .price::before {
+.sale::before {
+    content: '$'
+}
+
+.price::before {
+    content: '$'
+}
+
+.old-price::before {
     content: '$'
 }
 
