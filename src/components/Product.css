@@ -1,6 +1,4 @@
 .product {
-    /* position: relative;
-    width: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,63 +118,54 @@
 .overlay {
     position: absolute;
     width: 63px;
-height: 34px;
-right: 16px;
-top: 16px;
+    height: 34px;
+    right: 16px;
+    top: 16px;
 
-background: #339933;
-border-radius: 8px;
+    background: #339933;
+    border-radius: 8px;
 }
 
 .percent {
-height: 26px;
+    height: 26px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-align: center;
-margin-top: 2px;
-color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-top: 2px;
+    color: #FFFFFF;
 }
 
 .overlay-button {
     position: absolute;
     width: 100%;
-height: 35px;
-/* right: 16px; */
-top: 240px;
+    height: 35px;
+    top: 240px;
 
-background: #339933;
-border-radius: 8px;
+    background: #339933;
+    border-radius: 8px;
 }
-
-/* .overlay-button:hover {
-    background: #282828;
-} */
 
 .add-button {
-height: 35px;
-cursor: pointer;
+    height: 35px;
+    cursor: pointer;
 
-background: #339933;
-border-radius: 10px;
+    background: #339933;
+    border-radius: 10px;
 }
-
-/* .add-button:hover {
-    background: #282828;
-} */
 
 .add-button-text {
     display: block;
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 130%;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
     text-decoration: none;
     text-align: center;
     margin-top: 5px;
@@ -184,68 +173,4 @@ color: #FFFFFF;
 
 .add-button-text:hover {
     color:#282828
-}
-
-/* .add-button-text:hover {
-    background: #FFFFFF;
-} */
-
-
-
-
-
-
-
-
-
-.a {
-    /* sale */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
-align-items: flex-start;
-padding: 4px 8px;
-gap: 10px;
-
-position: absolute;
-width: 63px;
-height: 34px;
-right: 16px;
-top: 16px;
-
-/* green */
-background: #339933;
-border-radius: 6px;
-
-/* Inside auto layout */
-flex: none;
-order: 2;
-flex-grow: 0;
-z-index: 2;
-
-
-/* -50% */
-
-width: 47px;
-height: 26px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 130%;
-/* identical to box height, or 26px */
-letter-spacing: 0.03em;
-
-/* txt/white */
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
 }

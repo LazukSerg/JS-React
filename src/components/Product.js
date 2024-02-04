@@ -18,16 +18,10 @@ function Product(props) {
     
     const handleClick = () => {
         setButtonText("Added")
-        // let unsubscribe = store.subscribe(() => {
-        //     console.log(JSON.stringify(store.getState().cart))
-        // });
         let productNotExist = store.getState().cart.find(x => x.id === item.id) === undefined
         if(productNotExist) {
             store.dispatch(addToCart(item.id, item.title, 1, price, discont_price, item.image));
         }
-
-        
-        // unsubscribe();
     }
 
 

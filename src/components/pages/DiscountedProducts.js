@@ -4,7 +4,6 @@ import Header from './../header/Header';
 import Footer from './../footer/Footer';
 import Product from '../Product';
 import Name from '../Name';
-// import { Link } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 
 function DiscountedProducts() {

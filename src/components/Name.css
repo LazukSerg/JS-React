@@ -1,21 +1,13 @@
 .name {
-    /* Categories */
+    height: 70px;
 
-height: 70px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 110%;
-/* or 70px */
-
-/* txt/black */
-color: #282828;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 110%;
+    color: #282828;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }

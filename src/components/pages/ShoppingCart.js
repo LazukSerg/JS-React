@@ -89,17 +89,6 @@ function ShoppingCart() {
                         )}
                           <a className={item.discont_price ? 'item-old-price' : 'item-price'}>{item.price}</a>
 
-                        {/* <div className='item-price-flex'>
-                          {item.discont_price && (
-                              <a className='item-sale'>{item.discont_price}</a>
-                          )}
-                          <a className={item.discont_price ? 'item-old-price' : 'item-price'}>{item.price}</a>
-                        </div> */}
-
-
-
-
-
                       </div>
                     </div>
 

@@ -37,10 +37,6 @@ function ProductInfo() {
       
   }, [])
 
-  // let unsubscribe = store.subscribe(() => {
-  //   setCount(1)
-  // });
-
   const handleClick = () => {
     setButtonText("Added")
     let productNotExist = store.getState().cart.find(x => x.id === product.id) === undefined
@@ -50,7 +46,6 @@ function ProductInfo() {
         let currentCount = store.getState().cart.find(x => x.id === product.id).quantity
         store.dispatch(updateCart(product.id, product.title, currentCount + count, price, discont_price, product.image))
     }
-    // unsubscribe()
 }
 
   function decrement() {

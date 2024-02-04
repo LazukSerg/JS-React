@@ -1,5 +1,4 @@
 .menu {
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -16,8 +15,6 @@
 }
 
 .main-page {
-    /* Main Page */
-
     width: 108px;
     height: 26px;
 
@@ -27,12 +24,7 @@
     font-size: 20px;
     line-height: 130%;
     text-decoration: none;
-    /* identical to box height, or 26px */
-
-    /* txt/black */
     color: #282828;
-
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -43,8 +35,6 @@
 }
 
 .categories {
-    /* Categories */
-
     width: 109px;
     height: 26px;
 
@@ -54,13 +44,7 @@
     font-size: 20px;
     line-height: 130%;
     text-decoration: none;
-    /* identical to box height, or 26px */
-
-    /* txt/black */
     color: #282828;
-
-
-    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -72,8 +56,6 @@
 }
 
 .all-products {
-    /* All products */
-
     width: 123px;
     height: 26px;
 
@@ -83,13 +65,7 @@
     font-size: 20px;
     line-height: 130%;
     text-decoration: none;
-    /* identical to box height, or 26px */
-
-    /* txt/black */
     color: #282828;
-
-
-    /* Inside auto layout */
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -101,8 +77,6 @@
 }
 
 .all-sales {
-    /* All sales */
-
     width: 82px;
     height: 26px;
 
@@ -112,13 +86,7 @@
     font-size: 20px;
     line-height: 130%;
     text-decoration: none;
-    /* identical to box height, or 26px */
-
-    /* txt/black */
     color: #282828;
-
-
-    /* Inside auto layout */
     flex: none;
     order: 3;
     flex-grow: 0;
